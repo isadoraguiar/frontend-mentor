@@ -236,4 +236,8 @@ hr {
   .recipe-info {
     padding: 0rem 1rem 0rem 1.8rem;
   }
+
+  .ingredients, .instructions, .nutrition {
+    margin-inline: 1.8rem;
+  }
 }
