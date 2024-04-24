@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@100..900&display=swap');
+
+:root {
+  --bg-color: hsl(30, 38%, 92%);
+  --dark-cyan: hsl(158, 36%, 37%);
+  --dark-grayish-blue: hsl(228, 12%, 48%);
+  --dark-blue: hsl(212, 21%, 14%);
+  --white: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+body { 
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--bg-color);
+}
+
+.card {
+  display: flex;
+  max-width: 37.5rem;
+}
+
+.card-img img {
+  width: 18.75rem;
+  border-radius: 0.6rem 0 0 0.6rem;
+}
+
+.card-info {
+  background-color: var(--white);
+  padding: 2rem;
+  border-radius: 0 0.6rem 0.6rem 0;
+}
+
+.card-info .tag {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--dark-grayish-blue);
+  letter-spacing: 0.31rem;
+
+  margin-bottom: 1rem;
+}
+
+.card-info h1 {
+  font-size: 2rem;
+  line-height: 1;
+  font-weight: bold;
+  font-family: "Fraunces", serif;
+  color: var(--dark-blue);
+
+  margin-bottom: 1.7rem;
+}
+
+.card-info .description {
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.65;
+  color: var(--dark-grayish-blue);
+
+  margin-bottom: 1.7rem;
+}
+
+.card-info .price-tag {
+  display: flex;
+  align-items: center;
+  gap: 1.3rem;
+  
+  margin-bottom: 1.5rem;
+}
+
+.card-info .price {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Fraunces", serif;
+  color: var(--dark-cyan);
+}
+
+.card-info .strikethrough-price {
+  font-size: 0.813rem;
+  font-weight: 500;
+  color: var(--dark-grayish-blue);
+  text-decoration: line-through;
+}
+
+.card-info .add {
+  display: flex;
+  align-items: center;
+  gap: .875rem;
+
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: var(--white);
+  background-color: var(--dark-cyan);
+
+  padding: 1rem 3.8rem;
+  border-radius: 0.4rem;
+  border: none;
+
+  cursor: pointer;
+  transition: background-color .2s;
+
+  font-family: "Montserrat", sans-serif;
+}
+
+.card-info .add:hover {
+  background-color: hsl(158, 41%, 25%); 
+}
+
+@media (max-width: 640px) {
+  .card {
+    flex-direction: column;
+    max-width: 21.44rem;
+    margin-block: 1rem;
+  }
+
+  .card-img img {
+    width: 21.44rem;
+    height: 16.25rem;
+    object-fit: cover;
+    border-radius: 0.6rem 0.6rem 0 0;
+  }
+
+  .card-info {
+    border-radius: 0 0 0.6rem 0.6rem;
+  }
+  
+  .card-info h1 {
+    margin-bottom: 1.5rem;
+  }
+
+  .card-info .add {
+    padding: 1rem 5.1rem;
+  }
+}
