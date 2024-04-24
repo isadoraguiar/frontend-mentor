@@ -53,7 +53,7 @@ body {
   color: var(--dark-grayish-blue);
   letter-spacing: 0.31rem;
 
-  margin-bottom: 1rem;
+  margin-bottom: 1.1rem;
 }
 
 .card-info h1 {
@@ -63,7 +63,7 @@ body {
   font-family: "Fraunces", serif;
   color: var(--dark-blue);
 
-  margin-bottom: 1.7rem;
+  margin-bottom: 1.6rem;
 }
 
 .card-info .description {
