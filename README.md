@@ -22,7 +22,7 @@
             </th>
             <th align="center">
                 <img width="125" height="1">
-                <p align="left"> 
+                <p align="center"> 
                     <small>
                       PROJECT
                     </small>
