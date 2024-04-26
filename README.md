@@ -64,5 +64,11 @@
             <td><a href="https://isadoraguiar.github.io/frontend-mentor/product-card/">Live Project</a></td>
             <td align="center"><a href="product-card"><img width="300px" src="./product-card/design/desktop-preview.jpg" /></a></td>
         </tr>
+        <tr>
+            <td>05</td>
+            <td><a href="newsletter-signup">Newsletter Sign-up</a></td>
+            <td><a href="https://isadoraguiar.github.io/frontend-mentor/newsletter-signup/">Live Project</a></td>
+            <td align="center"><a href="newsletter-signup"><img width="300px" src="./newsletter-signup/design/desktop-preview.jpg" /></a></td>
+        </tr>
     </tbody>
 </table></p>
